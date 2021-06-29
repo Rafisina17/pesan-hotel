@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(left: edge),
                 child: Text(
-                  "Find Now",
+                  "Find Hotel Now",
                   style: blackTextStyle.copyWith(fontSize: 24),
                 ),
               ),
@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(left: edge),
                 child: Text(
-                  "Mencari Wisata Yang Indah",
+                  "Mencari Hotel Yang Nyaman",
                   style: greyTextStyle.copyWith(fontSize: 16),
                 ),
               ),
@@ -49,7 +49,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(left: edge),
                 child: Text(
-                  "Daerah Wisata Populer",
+                  "Kota Populer",
                   style: regularTextStyle.copyWith(fontSize: 16),
                 ),
               ),
@@ -96,7 +96,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(left: edge),
                 child: Text(
-                  "Rekomendasi Tempat Wisata",
+                  "Rekomendasi Hotel Tersedia",
                   style: regularTextStyle.copyWith(fontSize: 16),
                 ),
               ),
@@ -130,38 +130,6 @@ class HomePage extends StatelessWidget {
               // NOTE: TIPS N GUIDANCE
               SizedBox(
                 height: 30,
-              ),
-              Padding(
-                padding: EdgeInsets.only(left: edge),
-                child: Text(
-                  "Tips & Guidance",
-                  style: regularTextStyle.copyWith(fontSize: 16),
-                ),
-              ),
-              SizedBox(
-                height: 16,
-              ),
-              Padding(
-                padding: EdgeInsets.symmetric(horizontal: edge),
-                child: Column(
-                  children: [
-                    TipsCard(Tips(
-                        id: 1,
-                        name: "City Guidelines",
-                        tanggal: 20,
-                        imageUrl: "assets/tips1.png",
-                        bulan: "April")),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    TipsCard(Tips(
-                        id: 2,
-                        name: "Jakarta Fairship",
-                        tanggal: 11,
-                        imageUrl: "assets/tips2.png",
-                        bulan: "December"))
-                  ],
-                ),
               ),
               SizedBox(
                 height: 80 + edge,

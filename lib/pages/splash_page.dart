@@ -18,21 +18,14 @@ class SplashPage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Container(
-                  height: 100,
-                  width: 100,
-                  decoration: BoxDecoration(
-                      image: DecorationImage(
-                          image: AssetImage("assets/logo_wisata.png"))),
-                ),
                 // SizedBox(height: 30),
-                Text("WISATA INDONESIA",
+                Text("HOTEL INDONESIA",
                     style: blackTextStyle.copyWith(fontSize: 24)),
                 SizedBox(
                   height: 10,
                 ),
                 Text(
-                  "Kenali Wisata Indonesia, Karena Masih Banyak\nHal Yang Belum Kamu Lihat",
+                  "Pesan Hotel Sesuai Keinginanmu\nBanyak Tempat Menarik Yang Akan Kamu Nikmati",
                   style: greyTextStyle.copyWith(fontSize: 16),
                 ),
                 SizedBox(
